@@ -1,6 +1,6 @@
 # Vagrant init
 
-Init and build a vagrant for zombicide online
+Init and build a vagrant for [Zurvives](https://github.com/Thomas-Maurer/Zurvives) online
 
 ## Requirements
 
@@ -13,7 +13,7 @@ This script install on your vagrant :
 * git
 * curl
 * Rvm
-* Ruby - latest version
+* Ruby
 * Rails
 * Mysql
 
@@ -21,4 +21,4 @@ This script install on your vagrant :
 
     USER: root
     PASSWORD : root
-    DATABASE : zombicide_dev
+    DATABASE : zurvives_dev
