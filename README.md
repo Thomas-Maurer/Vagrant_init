@@ -20,6 +20,8 @@ This script install on your vagrant :
 
 ## Mysql
 
-USER: root
-PASSWORD : root
-DATABASE : zurvives_dev
+**USER**: root
+
+**PASSWORD** : root
+
+**DATABASE** : zurvives_dev
