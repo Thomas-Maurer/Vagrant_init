@@ -1,6 +1,6 @@
 # Vagrant init
 
-Init and build a vagrant for [Zurvives](https://github.com/Thomas-Maurer/Zurvives)
+Init and build a vagrant for [Zurvives](https://github.com/Thomas-Maurer/Zurvives) project
 
 ## Requirements
 
@@ -25,3 +25,4 @@ This script install on your vagrant :
 **PASSWORD** : root
 
 **DATABASE** : zurvives_dev
+
