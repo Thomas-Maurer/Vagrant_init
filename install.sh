@@ -19,6 +19,10 @@ su - vagrant -c 'rvm install ruby'
 echo -e "\n--- Install Rails ---\n"
 su - vagrant -c "gem install rails --no-ri --no-rdoc"
 
+# Install Node 
+echo -e "\n--- Install nodejs ---\n"
+sudo apt-get install nodejs
+
 echo -e "\n--- Install MySQL ---\n"
 apt-get install debconf-utils -y > /dev/null
 debconf-set-selections <<< "mysql-server mysql-server/root_password password root"

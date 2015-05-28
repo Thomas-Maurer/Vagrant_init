@@ -1,6 +1,6 @@
 # Vagrant init
 
-Init and build a vagrant for [Zurvives](https://github.com/Thomas-Maurer/Zurvives) online
+Init and build a vagrant for [Zurvives](https://github.com/Thomas-Maurer/Zurvives)
 
 ## Requirements
 
@@ -10,15 +10,16 @@ You must create a `/www` folder in your directory before initiate VM. This folde
 
 This script install on your vagrant :
 
-* git
-* curl
+* Git
+* Curl
 * Rvm
 * Ruby
 * Rails
+* Nodejs
 * Mysql
 
 ## Mysql
 
-    USER: root
-    PASSWORD : root
-    DATABASE : zurvives_dev
+USER: root
+PASSWORD : root
+DATABASE : zurvives_dev
