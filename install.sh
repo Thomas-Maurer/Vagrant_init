@@ -20,8 +20,16 @@ echo -e "\n--- Install Rails ---\n"
 su - vagrant -c "gem install rails --no-ri --no-rdoc"
 
 # Install Node 
-echo -e "\n--- Install nodejs ---\n"
-sudo apt-get install nodejs
+echo -e "\n--- Install nodejs and npm ---\n"
+sudo apt-get install -y nodejs
+sudo apt-get install -y npm
+
+echo -e "\n--- Install dependencies and prevent proxy issues ---\n"
+npm config set registry http://registry.npmjs.org/
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+sudo npm install bower -g
 
 echo -e "\n--- Install MySQL ---\n"
 apt-get install debconf-utils -y > /dev/null

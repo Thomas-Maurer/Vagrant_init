@@ -16,6 +16,8 @@ This script install on your vagrant :
 * Ruby
 * Rails
 * Nodejs
+* Npm
+* Bower
 * Mysql
 
 ## Mysql
