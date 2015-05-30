@@ -39,3 +39,6 @@ sudo apt-get install -y mysql-server mysql-client libmysqlclient-dev > /dev/null
 
 echo -e "\n--- Create Database ---\n"
 sudo mysql -h localhost -u root -proot -e "CREATE DATABASE zurvives_dev;"
+
+echo -e "\n--- Personals settings -- \n"
+git config --global color.ui auto
