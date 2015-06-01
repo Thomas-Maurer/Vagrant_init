@@ -7,4 +7,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "private_network", ip: "192.168.100.10"
   config.vm.network "forwarded_port", guest: 3000, host: 3000
   config.vm.synced_folder "www/", "/var/www/"
+  config.vm.network "public_network", ip: "192.168.0.150"
 end
