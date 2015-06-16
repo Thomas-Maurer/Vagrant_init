@@ -28,3 +28,14 @@ This script install on your vagrant :
 
 **DATABASE** : zurvives_dev
 
+## Issues know
+
+Node & npm may not be installed correctly. In this case, do :
+
+```
+sudo apt-get purge nodejs npm
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+sudo apt-get install -y nodejs
+```
+
+The last command line will install node and npm
