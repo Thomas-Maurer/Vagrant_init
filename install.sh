@@ -38,7 +38,7 @@ debconf-set-selections <<< "mysql-server mysql-server/root_password_again passwo
 sudo apt-get install -y mysql-server mysql-client libmysqlclient-dev > /dev/null
 
 echo -e "\n--- Create Database ---\n"
-sudo mysql -h localhost -u root -proot -e "CREATE DATABASE zurvives_dev;"
+sudo mysql -h localhost -u root -proot -e "CREATE DATABASE Zurvives_development;"
 
 echo -e "\n--- Personals settings -- \n"
 git config --global color.ui auto
